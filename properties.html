@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse Margie Fields' current and past real estate investment properties. Fix and flip projects, rental properties, and available listings.">
+    <meta name="keywords" content="Real Estate Properties, Fix and Flip Projects, Rental Properties For Sale, Investment Properties">
+    <title>Properties | Margie Fields Real Estate</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">MARGIE FIELDS</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="properties.html" class="active">Properties</a></li>
+                <li><a href="lending.html">Lending</a></li>
+                <li><a href="partnership.html">Partnership</a></li>
+                <li><a href="contact.html" class="btn-nav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Property Portfolio</h1>
+            <p>Explore current and completed real estate investment projects</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="available">Available</button>
+                <button class="filter-btn" data-filter="sold">Sold</button>
+                <button class="filter-btn" data-filter="rented">Rented</button>
+                <button class="filter-btn" data-filter="renovation">Under Renovation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Grid -->
+    <section class="properties-section">
+        <div class="container">
+            <div class="properties-grid">
+                <!-- Property 1 -->
+                <div class="property-card" data-status="sold">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-sold">Sold</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Downtown District</div>
+                        <h3 class="property-title">Modern Victorian Renovation</h3>
+                        <p class="property-description">Complete transformation of a historic Victorian home with modern amenities while preserving original character.</p>
+                        <div class="property-features">
+                            <span><strong>4</strong> Beds</span>
+                            <span><strong>3.5</strong> Baths</span>
+                            <span><strong>2,800</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Fix & Flip</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Inquire About Similar</a>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-card" data-status="available">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-available">Available</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Riverside Community</div>
+                        <h3 class="property-title">Contemporary Family Home</h3>
+                        <p class="property-description">Beautiful move-in ready home featuring open floor plan, updated kitchen, and private backyard oasis.</p>
+                        <div class="property-features">
+                            <span><strong>3</strong> Beds</span>
+                            <span><strong>2</strong> Baths</span>
+                            <span><strong>1,950</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">For Sale</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Request Information</a>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-card" data-status="rented">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-rented">Rented</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Suburban Heights</div>
+                        <h3 class="property-title">Executive Rental Property</h3>
+                        <p class="property-description">Premium rental featuring high-end finishes, smart home technology, and convenient location.</p>
+                        <div class="property-features">
+                            <span><strong>4</strong> Beds</span>
+                            <span><strong>2.5</strong> Baths</span>
+                            <span><strong>2,200</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Rental Property</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">View Similar Rentals</a>
+                    </div>
+                </div>
+
+                <!-- Property 4 -->
+                <div class="property-card" data-status="renovation">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-renovation">Under Renovation</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Historic District</div>
+                        <h3 class="property-title">Classic Craftsman Restoration</h3>
+                        <p class="property-description">Restoring this beautiful craftsman home to its former glory with modern luxury updates throughout.</p>
+                        <div class="property-features">
+                            <span><strong>5</strong> Beds</span>
+                            <span><strong>3</strong> Baths</span>
+                            <span><strong>3,100</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Fix & Flip</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Request Updates</a>
+                    </div>
+                </div>
+
+                <!-- Property 5 -->
+                <div class="property-card" data-status="sold">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-sold">Sold</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Lakeside Village</div>
+                        <h3 class="property-title">Lakefront Bungalow</h3>
+                        <p class="property-description">Charming bungalow with stunning lake views, completely renovated with high-end finishes.</p>
+                        <div class="property-features">
+                            <span><strong>3</strong> Beds</span>
+                            <span><strong>2</strong> Baths</span>
+                            <span><strong>1,600</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Fix & Flip</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Inquire About Similar</a>
+                    </div>
+                </div>
+
+                <!-- Property 6 -->
+                <div class="property-card" data-status="available">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-available">Available</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Central Park Area</div>
+                        <h3 class="property-title">Modern Urban Townhouse</h3>
+                        <p class="property-description">Stylish townhouse in prime location with rooftop terrace and designer finishes throughout.</p>
+                        <div class="property-features">
+                            <span><strong>3</strong> Beds</span>
+                            <span><strong>2.5</strong> Baths</span>
+                            <span><strong>2,000</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">For Sale</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Request Information</a>
+                    </div>
+                </div>
+
+                <!-- Property 7 -->
+                <div class="property-card" data-status="rented">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-rented">Rented</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">University District</div>
+                        <h3 class="property-title">Student-Friendly Duplex</h3>
+                        <p class="property-description">Well-maintained duplex perfect for students or young professionals. Great investment opportunity.</p>
+                        <div class="property-features">
+                            <span><strong>3</strong> Beds</span>
+                            <span><strong>2</strong> Baths</span>
+                            <span><strong>1,400</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Rental Property</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">View Similar Rentals</a>
+                    </div>
+                </div>
+
+                <!-- Property 8 -->
+                <div class="property-card" data-status="renovation">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-renovation">Under Renovation</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Greenfield Estates</div>
+                        <h3 class="property-title">Luxury Ranch Remodel</h3>
+                        <p class="property-description">Transforming this spacious ranch into a modern luxury home with open concept living.</p>
+                        <div class="property-features">
+                            <span><strong>4</strong> Beds</span>
+                            <span><strong>3</strong> Baths</span>
+                            <span><strong>2,600</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Fix & Flip</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Request Updates</a>
+                    </div>
+                </div>
+
+                <!-- Property 9 -->
+                <div class="property-card" data-status="sold">
+                    <div class="property-image">
+                        <div class="image-placeholder">Property Image</div>
+                        <div class="property-badge badge-sold">Sold</div>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-location">Maple Grove</div>
+                        <h3 class="property-title">Charming Cottage Revival</h3>
+                        <p class="property-description">Complete renovation of a 1920s cottage, blending period charm with contemporary comfort.</p>
+                        <div class="property-features">
+                            <span><strong>2</strong> Beds</span>
+                            <span><strong>1.5</strong> Baths</span>
+                            <span><strong>1,200</strong> Sq Ft</span>
+                        </div>
+                        <div class="property-type">Fix & Flip</div>
+                        <a href="contact.html" class="btn btn-outline btn-small">Inquire About Similar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Interested in a Property?</h2>
+                <p>Whether you're looking to purchase, rent, or discuss investment opportunities, I'm here to help.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Me</a>
+                    <a href="partnership.html" class="btn btn-secondary">Investment Opportunities</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>MARGIE FIELDS</h3>
+                    <p>Transforming Properties into Opportunities</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="properties.html">Properties</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Opportunities</h4>
+                        <ul>
+                            <li><a href="lending.html">Lending</a></li>
+                            <li><a href="partnership.html">Partnership</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="mailto:MargieFields1@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Margie Fields. All Rights Reserved.</p>
+                <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
