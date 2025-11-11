@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buyers & Sellers - Contact Margie Fields to list or find properties and receive tailored email alerts.">
+    <title>Buyers & Sellers | Margie Fields</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand"><a href="index.html">MARGIE FIELDS</a></div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="lending.html">Investment Funds</a></li>
+                <li><a href="partnership.html">Partnership</a></li>
+                <li><a href="mortgage.html">Mortgage</a></li>
+                <li><a href="buyers-sellers.html" class="active">Buyers &amp; Sellers</a></li>
+                <li><a href="contact.html" class="btn-nav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Buyers & Sellers</h1>
+            <p>Tell us what you're looking for or list your property — we'll connect you with the right opportunities.</p>
+        </div>
+    </section>
+
+    <section class="container" style="padding:2rem 0;">
+        <div class="grid" style="display:grid; grid-template-columns: 1fr 420px; gap:2rem; align-items:start;">
+            <div>
+                <h2>Interested in Buying or Selling?</h2>
+                <p>If you have a property to sell or you're searching for a home, fill out the form below and we'll be in touch to discuss next steps.</p>
+
+                <form class="contact-form" id="buyersForm">
+                    <h3>Contact About a Property</h3>
+                    <div class="form-group">
+                        <label for="bs-name">Full Name *</label>
+                        <input type="text" id="bs-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bs-email">Email Address *</label>
+                        <input type="email" id="bs-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bs-phone">Phone Number</label>
+                        <input type="tel" id="bs-phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="bs-type">I am a</label>
+                        <select id="bs-type" name="type">
+                            <option value="buyer">Buyer</option>
+                            <option value="seller">Seller</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bs-message">Message / Property Details</label>
+                        <textarea id="bs-message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+
+            <aside>
+                <div class="contact-form-wrapper">
+                    <h3>Get Email Alerts</h3>
+                    <p>Sign up to receive property alerts that match your criteria.</p>
+                    <form id="alertsForm">
+                        <div class="form-group">
+                            <label for="alert-email">Email *</label>
+                            <input type="email" id="alert-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="e.g., Austin">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <select id="state" name="state">
+                                <option value="">Select a state</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="min-sqft">Min Square Feet</label>
+                            <input type="number" id="min-sqft" name="min_sqft" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="max-sqft">Max Square Feet</label>
+                            <input type="number" id="max-sqft" name="max_sqft" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="bedrooms">Bedrooms</label>
+                            <select id="bedrooms" name="bedrooms">
+                                <option value="any">Any</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="baths">Bathrooms</label>
+                            <select id="baths" name="baths">
+                                <option value="any">Any</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="other-reqs">Other Requirements</label>
+                            <textarea id="other-reqs" name="other_reqs" rows="3" placeholder="e.g., location, price range, lot size"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label"><input type="checkbox" name="consent" required> <span>I consent to receive email alerts *</span></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>MARGIE FIELDS</h3>
+                    <p>Transforming Properties into Opportunities</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="lending.html">Investment Funds</a></li>
+                            <li><a href="partnership.html">Partnership</a></li>
+                            <li><a href="mortgage.html">Mortgage</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Margie Fields. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Basic client-side handlers to prevent page reload (stubs)
+    document.getElementById('buyersForm').addEventListener('submit', function(e){ e.preventDefault(); alert('Thanks — we\'ll be in touch!'); });
+    document.getElementById('alertsForm').addEventListener('submit', function(e){ e.preventDefault(); alert('Subscribed to alerts!'); });
+    </script>
+</body>
+</html>
